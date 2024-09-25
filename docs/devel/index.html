@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.4.555">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-<title>BookTestingBiocBook</title>
+<title>BookTestingBookdown</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -116,18 +116,18 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto"><div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">BookTestingBiocBook</a> 
+      <a href="./">BookTestingBookdown</a> 
         <div class="sidebar-tools-main">
     <div class="dropdown">
       <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label=""><i class="bi bi-git"></i></a>
       <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
 <li>
-            <a class="dropdown-item sidebar-tools-main-item" href="https://github.com/lmweber/BookTestingBiocBook/">
+            <a class="dropdown-item sidebar-tools-main-item" href="https://github.com/lmweber/BookTestingBookdown/">
             Source Code
             </a>
           </li>
           <li>
-            <a class="dropdown-item sidebar-tools-main-item" href="https://lmweber.github.io/BookTestingBiocBook/devel/">
+            <a class="dropdown-item sidebar-tools-main-item" href="https://lmweber.github.io/BookTestingBookdown/devel/">
             Browse version `devel`
             </a>
           </li>
@@ -171,7 +171,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><div class="quarto-title">
-<h1 class="title">BookTestingBiocBook</h1>
+<h1 class="title">BookTestingBookdown</h1>
 </div>
 
 
@@ -185,14 +185,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   
 
 
-</header><p><img src="assets/cover.png" title="BookTestingBiocBook" class="quarto-cover-image img-fluid"></p>
-<p><strong>Package:</strong> BookTestingBiocBook<br><strong>Authors:</strong> First Last [aut, cre]<br><strong>Compiled:</strong> 2024-09-25<br><strong>Package version:</strong> 0.98.0<br><strong>R version:</strong> <b style="color:red;">R version 4.4.1 (2024-06-14)</b><br><strong>BioC version:</strong> <b style="color:red;">3.20</b><br><strong>License:</strong> MIT + file LICENSE<br></p>
+</header><p><img src="assets/cover.png" title="BookTestingBookdown" class="quarto-cover-image img-fluid"></p>
+<p><strong>Package:</strong> BookTestingBookdown<br><strong>Authors:</strong> First Last [aut, cre]<br><strong>Compiled:</strong> 2024-09-25<br><strong>Package version:</strong> 0.98.0<br><strong>R version:</strong> <b style="color:red;">R version 4.4.1 (2024-06-14)</b><br><strong>BioC version:</strong> <b style="color:red;">3.20</b><br><strong>License:</strong> MIT + file LICENSE<br></p>
 <section id="welcome" class="level1 unnumbered"><h1 class="unnumbered">Welcome</h1>
 <p>This is the landing page of the <code>BiocBook</code> entitled <em>…</em>.</p>
 <p>This book introduces the reader to <em>…</em>.</p>
 </section><section id="docker-image" class="level1 unnumbered"><h1 class="unnumbered">Docker image</h1>
 <p>A <code>Docker</code> image built from this repository is available here:</p>
-<p>👉 <a href="https://ghcr.io/lmweber/booktestingbiocbook">ghcr.io/lmweber/booktestingbiocbook</a> 🐳</p>
+<p>👉 <a href="https://ghcr.io/lmweber/booktestingbookdown">ghcr.io/lmweber/booktestingbookdown</a> 🐳</p>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -209,7 +209,7 @@ Get started now 🎉
 <div class="code-with-filename-file">
 <pre><strong>bash</strong></pre>
 </div>
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode sh code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> run <span class="at">-it</span> ghcr.io/lmweber/booktestingbiocbook:devel R</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode sh code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> run <span class="at">-it</span> ghcr.io/lmweber/booktestingbookdown:devel R</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div>
 </div>
@@ -225,7 +225,7 @@ Get started now 🎉
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    <span class="at">--volume</span> <span class="op">&lt;</span>local_folder<span class="op">&gt;</span>:<span class="op">&lt;</span>destination_folder<span class="op">&gt;</span> <span class="dt">\</span></span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>    <span class="at">-e</span> PASSWORD=OHCA <span class="dt">\</span></span>
 <span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>    <span class="at">-p</span> 8787:8787 <span class="dt">\</span></span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>    ghcr.io/lmweber/booktestingbiocbook:devel</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>    ghcr.io/lmweber/booktestingbookdown:devel</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div>
 <p>The initiated RStudio Server instance will be available at <a href="https://localhost:8787">https://localhost:8787</a>.</p>
@@ -240,7 +240,7 @@ once the Docker image is loaded. It provides all the softwares listed in
 ::: {.cell layout-align="center" filename='bash'}
 
 ```{.sh .cell-code}
-docker run -it ghcr.io/lmweber/booktestingbiocbook:devel bash
+docker run -it ghcr.io/lmweber/booktestingbookdown:devel bash
 micromamba activate BiocBook
 ```
 :::
@@ -286,7 +286,7 @@ Click to expand 👇
 <span><span class="co">##   BiocStyle             2.33.1  2024-06-12 [2] Bioconductor 3.20 (R 4.4.0)</span></span>
 <span><span class="co">##   BiocVersion           3.20.0  2024-05-01 [2] Bioconductor 3.20 (R 4.4.1)</span></span>
 <span><span class="co">##   bookdown              0.40    2024-07-02 [2] RSPM (R 4.4.0)</span></span>
-<span><span class="co">##   BookTestingBiocBook   0.98.0  2024-09-25 [1] local</span></span>
+<span><span class="co">##   BookTestingBookdown   0.98.0  2024-09-25 [1] local</span></span>
 <span><span class="co">##   boot                  1.3-31  2024-08-28 [2] RSPM (R 4.4.0)</span></span>
 <span><span class="co">##   brew                  1.0-10  2023-12-16 [2] RSPM (R 4.4.0)</span></span>
 <span><span class="co">##   brio                  1.1.5   2024-04-24 [2] RSPM (R 4.4.0)</span></span>
@@ -412,7 +412,7 @@ Click to expand 👇
 <span><span class="co">##   yaml                  2.3.10  2024-07-26 [2] RSPM (R 4.4.0)</span></span>
 <span><span class="co">##   zip                   2.3.1   2024-01-27 [2] RSPM (R 4.4.0)</span></span>
 <span><span class="co">##  </span></span>
-<span><span class="co">##   [1] /tmp/RtmpxOieyS/Rinst8c758bfa64</span></span>
+<span><span class="co">##   [1] /tmp/RtmpfWwSQj/Rinst8c5c536051</span></span>
 <span><span class="co">##   [2] /usr/local/lib/R/site-library</span></span>
 <span><span class="co">##   [3] /usr/local/lib/R/library</span></span>
 <span><span class="co">##  </span></span>
