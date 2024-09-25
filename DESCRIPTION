@@ -1,4 +1,4 @@
-Package: BookTestingBiocBook
+Package: BookTestingBookdown
 Title: What the Package Does (One Line, Title Case)
 Description: 
     This sentence is a placeholder. It should be changed by the author of 
@@ -12,8 +12,8 @@ Authors@R:
         role = c("aut", "cre"),
         comment = c(ORCID = "YOUR-ORCID-ID")
     )
-URL: https://github.com/lmweber/BookTestingBiocBook
-BugReports: https://github.com/lmweber/BookTestingBiocBook
+URL: https://github.com/lmweber/BookTestingBookdown
+BugReports: https://github.com/lmweber/BookTestingBookdown
 Depends:
     R (>= 4.3)
 Imports:

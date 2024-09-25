@@ -2,7 +2,7 @@
 #| echo: false
 intro <- tryCatch(
     {
-        description <- packageDescription("BookTestingBiocBook")
+        description <- packageDescription("BookTestingBookdown")
         pkg <- description$Package
         version <- description$Version
         authors <- eval(parse(text = description$Authors))
@@ -33,7 +33,7 @@ This book introduces the reader to *...*.
 
 A `Docker` image built from this repository is available here: 
 
-👉 [ghcr.io/lmweber/booktestingbiocbook](https://ghcr.io/lmweber/booktestingbiocbook) 🐳
+👉 [ghcr.io/lmweber/booktestingbookdown](https://ghcr.io/lmweber/booktestingbookdown) 🐳
 
 ::: {.callout-tip icon='true'}
 ## Get started now 🎉
@@ -43,7 +43,7 @@ using this command in a terminal:
 
 ```{sh "docker", filename="bash"}
 #| eval: false
-docker run -it ghcr.io/lmweber/booktestingbiocbook:devel R
+docker run -it ghcr.io/lmweber/booktestingbookdown:devel R
 ```
 
 :::
@@ -58,7 +58,7 @@ docker run \
     --volume <local_folder>:<destination_folder> \
     -e PASSWORD=OHCA \
     -p 8787:8787 \
-    ghcr.io/lmweber/booktestingbiocbook:devel
+    ghcr.io/lmweber/booktestingbookdown:devel
 ```
 
 The initiated RStudio Server instance will be available at 
@@ -73,7 +73,7 @@ once the Docker image is loaded. It provides all the softwares listed in
 
 ```{sh "micromamba", filename="bash"}
 #| eval: false
-docker run -it ghcr.io/lmweber/booktestingbiocbook:devel bash
+docker run -it ghcr.io/lmweber/booktestingbookdown:devel bash
 micromamba activate BiocBook
 ``` 
 -->

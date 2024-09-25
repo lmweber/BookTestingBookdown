@@ -1,5 +1,5 @@
 book:
-  title: "BookTestingBiocBook"
+  title: "BookTestingBookdown"
   chapters:
     - index.qmd
     - pages/background.qmd
@@ -10,9 +10,9 @@ book:
       - icon: git
         menu:
           - text: Source Code
-            url:  https://github.com/lmweber/BookTestingBiocBook/
+            url:  https://github.com/lmweber/BookTestingBookdown/
           - text: Browse version `devel`
-            url:  https://lmweber.github.io/BookTestingBiocBook/devel/
+            url:  https://lmweber.github.io/BookTestingBookdown/devel/
     style: "docked"
     background: "light"
     collapse-level: 5
